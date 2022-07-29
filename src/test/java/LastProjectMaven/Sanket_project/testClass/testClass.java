@@ -54,15 +54,15 @@ public class testClass extends baseClass
 
 	}
 
-	@AfterClass
-	public void closeApp() throws InterruptedException
-	{
-		Thread.sleep(5000);
-		driver.close();
-		driver=null;
-		mp=null;
-		lp=null;
-		sheet=null;
-	}
+//	@AfterClass
+//	public void closeApp() throws InterruptedException
+//	{
+//		Thread.sleep(5000);
+//		driver.close();
+//		driver=null;
+//		mp=null;
+//		lp=null;
+//		sheet=null;
+//	}
 }
 
